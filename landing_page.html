@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link List Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            text-align: center;
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 90%;
+            max-width: 600px;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin: 10px 0;
+        }
+        a {
+            text-decoration: none;
+            color: #007bff;
+            font-size: 18px;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .qr-code {
+            margin-top: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Our Links</h1>
+        <ul>
+            <li><a href="https://example.com/link1" target="_blank">Link 1</a></li>
+            <li><a href="https://example.com/link2" target="_blank">Link 2</a></li>
+            <li><a href="https://example.com/link3" target="_blank">Link 3</a></li>
+            <li><a href="https://example.com/link4" target="_blank">Link 4</a></li>
+        </ul>
+        <div class="qr-code">
+            <p>Scan the QR code below:</p>
+            <img src="https://via.placeholder.com/150" alt="QR Code">
+        </div>
+    </div>
+</body>
+</html>
